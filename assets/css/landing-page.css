@@ -7,7 +7,6 @@
   padding: 20px;
   grid-template-columns: 1fr 1fr;
   /*gap: 20px;*/
-  background-image: url(/assets/images/img_car.png);
 }
 
 .grid {
@@ -19,12 +18,18 @@
 
 .text {
   padding: 15px 0px;
-  font-size: 22px;
+  font-size: 18px;
   margin: 12rem 2rem 0rem 14rem;
 }
 
-.grid img {
-  width: 100%;
+.mobil {
+  background-image: url(../../assets/images/img_car.png);
+  /* width: 100%; */
+  /* height: auto; */
+  object-fit: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /* background-position-y: bottom;*/
 }
 
 .banner button {
