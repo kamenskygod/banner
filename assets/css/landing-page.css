@@ -1,0 +1,39 @@
+* {
+  font-family: arial;
+}
+
+.banner {
+  display: grid;
+  padding: 20px;
+  grid-template-columns: 1fr 1fr;
+  /*gap: 20px;*/
+  background-image: url(/assets/images/img_car.png);
+}
+
+.grid {
+  width: 100%;
+  height: auto;
+  /*border: 1px solid black;
+    background: blue;*/
+}
+
+.text {
+  padding: 15px 0px;
+  font-size: 22px;
+  margin: 12rem 2rem 0rem 14rem;
+}
+
+.grid img {
+  width: 100%;
+}
+
+.banner button {
+  border-radius: 10px 0 5px;
+  background-color: green;
+  transition: all ease-in 0.5s 0s;
+}
+
+.banner button:hover {
+  transform: rotate(3deg);
+  color: #fff;
+}
