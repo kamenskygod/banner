@@ -1,0 +1,110 @@
+* {
+  font-family: arial;
+}
+
+.banner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  align-items: center;
+}
+
+.grid {
+  width: 100%;
+  height: auto;
+}
+
+.header {
+  width: 35rem;
+  line-height: 20px;
+  position: relative;
+  bottom: 60px;
+  margin-left: 10rem;
+}
+
+.text {
+  line-height: 2.5rem;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.deskripsi {
+  line-height: 20px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.mobil {
+  background-image: url(../../assets/images/img_car.png);
+}
+
+.mobil > img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.banner button {
+  font-size: 20px;
+  border-radius: 10px 0 5px;
+  background-color: green;
+  transition: all ease-in 0.5s 0s;
+}
+
+.banner button:hover {
+  transform: rotate(3deg);
+  color: #fff;
+}
+
+@media screen and (max-width: 800px) {
+  .banner {
+    background-color: azure;
+  }
+  .judul {
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    width: 328px;
+    height: 216px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+  }
+
+  .deskripsi {
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+    width: 328px;
+    height: 60px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .mobil > img {
+    position: absolute;
+    width: 344.22px;
+    height: 199px;
+    left: 360.22px;
+    top: 458px;
+  }
+
+  button {
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+}
